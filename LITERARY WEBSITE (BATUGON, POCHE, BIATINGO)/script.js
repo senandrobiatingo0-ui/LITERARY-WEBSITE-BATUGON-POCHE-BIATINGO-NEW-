@@ -17,7 +17,7 @@ const works = {
   fiction: [
     {
       title: "The Clockmaker's Secret",
-      author: "J. M. De Luna",
+      author: "J. N. De Luna",
       content: "In a small town where time stood still, a clockmaker hides a secret that could change eternity itself...",
       image: "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?auto=format&fit=crop&w=600&q=80"
     },
@@ -211,6 +211,7 @@ document.getElementById("register-form").addEventListener("submit", (e) => {
   welcomeMsg.style.marginLeft = "12px";
   navContainer.appendChild(welcomeMsg);
 });
+
 
 
 
