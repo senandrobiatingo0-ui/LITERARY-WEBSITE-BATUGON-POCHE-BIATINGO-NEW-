@@ -47,7 +47,7 @@ const works = {
   "short-story": [
     {
       title: "The Last Train Home",
-      author: "A. Castillo",
+      author: "B. Castillo",
       content: "He missed the train — or perhaps, the train missed him. In that moment, fate rewrote itself...",
       image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80"
     }
@@ -211,6 +211,7 @@ document.getElementById("register-form").addEventListener("submit", (e) => {
   welcomeMsg.style.marginLeft = "12px";
   navContainer.appendChild(welcomeMsg);
 });
+
 
 
 
